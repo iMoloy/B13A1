@@ -1,17 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 2042px;
+  max-width: 1600px;
 }
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-
+.color-white {
+  color: #fff;
+}
+.color-green {
+  color: #30b868;
+}
 /* Navbar Start */
 #navbar {
-  max-width: 1600px;
   padding: 16px 120px;
   display: flex;
   justify-content: space-between;
@@ -28,18 +32,83 @@
   padding-left: 32px;
   cursor: pointer;
 }
-.button a {
+.button {
   background-color: #30b868;
   color: #fff;
   border: none;
   padding: 12px 16px;
   cursor: pointer;
-  text-decoration: none;
   font-size: 16px;
+  font-weight: 600;
   border-radius: 4px;
 }
-.button a:hover {
+.button:hover {
   background-color: #469165;
   color: #e5ff00;
   transition: all ease 1s;
+}
+/* Banner Start */
+#banner {
+  background-image: url("./images/hero-bg.png");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.banner-box {
+  text-align: center;
+  justify-content: center;
+  padding: 154px 341px;
+}
+.banner-box .button {
+  padding-bottom: 16px;
+  color: #30b868;
+  background-color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 999px;
+}
+.banner-box .button img {
+  vertical-align: middle;
+}
+.banner-box h1 {
+  padding-bottom: 16px;
+  font-size: 72px;
+  font-weight: 700;
+}
+.banner-box p {
+  padding-bottom: 32px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+}
+.banner-box .btn {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.banner-box .btn .btn1 {
+  padding: 12px 16px;
+  background-color: #30b868;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.banner-box .btn .btn1 img {
+  vertical-align: middle;
+}
+.banner-box .btn .btn2 {
+  padding: 12px 16px;
+  background-color: hsla(145, 59%, 45%, 0);
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.banner-box .btn .btn2 img {
+  vertical-align: middle;
 }

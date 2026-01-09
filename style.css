@@ -167,20 +167,23 @@
 /* Second Banner */
 #s-banner {
   max-width: 1360px;
+  margin-bottom: 120px;
 }
 #s-banner img {
   border-radius: 12px;
+  margin-left: 120px;
+  width: 600px;
+  height: 600px;
 }
 #s-banner .s-banner-section {
   display: flex;
-  padding-bottom: 120px;
+  margin: 0 auto;
 }
 #s-banner .s-banner-section .details {
-  padding: 102px;
+  padding: 102px 0 102px 60px;
 }
 #s-banner .s-banner-section .details h6 {
   font-size: 16px;
-  line-height: 20px;
   color: #30b868;
   padding-bottom: 16px;
 }
@@ -193,16 +196,51 @@
 
 #s-banner .s-banner-section .details p {
   font-size: 16px;
-  line-height: 20px;
   color: #627382;
   padding-bottom: 40px;
 }
 #s-banner .s-banner-section .details li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 16px;
-  line-height: 20px;
   list-style: none;
   padding-bottom: 16px;
 }
 #s-banner .s-banner-section .details li img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+/* Frame Start */
+#frame {
+  padding: 0 120px 120px 120px;
+}
+#frame .frame-section {
+  margin: o auto;
+  padding: 80px 0;
+  max-width: 1360px;
+  background-color: #f7f6f2;
+  text-align: center;
+  border-radius: 12px;
+}
+#frame .frame-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  padding-bottom: 16px;
+}
+#frame .frame-section p {
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 24px;
+}
+#frame .frame-section button {
+  margin-bottom: 16px;
+}
+#frame .frame-section button img {
   vertical-align: middle;
 }

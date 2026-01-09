@@ -44,7 +44,7 @@
 }
 .button:hover {
   background-color: #469165;
-  color: #e5ff00;
+  color: #001931;
   transition: all ease 1s;
 }
 /* Banner Start */
@@ -66,6 +66,11 @@
   padding: 8px 12px;
   cursor: pointer;
   border-radius: 999px;
+}
+.banner-box .button:hover {
+  background-color: #4691653d;
+  color: #fff;
+  transition: all ease 1s;
 }
 .banner-box .button img {
   vertical-align: middle;
@@ -96,18 +101,29 @@
   font-weight: 600;
   border-radius: 4px;
 }
+.banner-box .btn .btn1:hover {
+  background-color: #469165;
+  color: #001931;
+  transition: all ease 1s;
+}
 .banner-box .btn .btn1 img {
   vertical-align: middle;
 }
 .banner-box .btn .btn2 {
   padding: 12px 16px;
-  background-color: #30b868;
+  background-color: #30b86900;
   color: #fff;
   border: 1px solid #fff;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
   border-radius: 4px;
+}
+.banner-box .btn .btn2:hover {
+  background-color: #00000071;
+  color: #30b868;
+  transition: all ease 1s;
+  box-shadow: ;
 }
 .banner-box .btn .btn2 img {
   vertical-align: middle;
@@ -243,4 +259,37 @@
 }
 #frame .frame-section button img {
   vertical-align: middle;
+}
+/* Footer Start */
+#footer {
+  background-color: #001931;
+  padding: 40px 120px 24px;
+  color: #ffffff;
+}
+#footer .footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo .footer-logo img {
+  vertical-align: middle;
+}
+#footer .footer-social p {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+#footer .footer-social .icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 16;
+}
+#footer .footer-social img {
+  vertical-align: middle;
+}
+#footer hr {
+  margin: 80px 0 30px;
+}
+#footer .copyright {
+  font-size: 16px;
+  text-align: center;
 }

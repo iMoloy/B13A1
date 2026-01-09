@@ -139,10 +139,10 @@
   align-items: center;
   gap: 24px;
 }
-#Card .card-section .card-item div{
+#Card .card-section .card-item div {
   padding: 24px;
   border: none;
-  box-shadow:  0 6px 50px 0 #00000025;
+  box-shadow: 0 6px 50px 0 #00000025;
   border-radius: 8px;
   max-width: 322px;
   max-height: 300px;
@@ -158,9 +158,51 @@
   color: #001931;
   padding-bottom: 16px;
 }
-#Card .card-section .card-item p{
+#Card .card-section .card-item p {
   text-align: center;
   font-size: 16px;
   line-height: 20px;
   color: #627382;
+}
+/* Second Banner */
+#s-banner {
+  max-width: 1360px;
+}
+#s-banner img {
+  border-radius: 12px;
+}
+#s-banner .s-banner-section {
+  display: flex;
+  padding-bottom: 120px;
+}
+#s-banner .s-banner-section .details {
+  padding: 102px;
+}
+#s-banner .s-banner-section .details h6 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #30b868;
+  padding-bottom: 16px;
+}
+#s-banner .s-banner-section .details h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+#s-banner .s-banner-section .details p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  padding-bottom: 40px;
+}
+#s-banner .s-banner-section .details li {
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+  padding-bottom: 16px;
+}
+#s-banner .s-banner-section .details li img {
+  vertical-align: middle;
 }

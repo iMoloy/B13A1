@@ -101,7 +101,7 @@
 }
 .banner-box .btn .btn2 {
   padding: 12px 16px;
-  background-color: hsla(145, 59%, 45%, 0);
+  background-color: #30b868;
   color: #fff;
   border: 1px solid #fff;
   cursor: pointer;
@@ -111,4 +111,56 @@
 }
 .banner-box .btn .btn2 img {
   vertical-align: middle;
+}
+/* Card Section */
+#Card {
+  margin-top: 58px;
+  padding-bottom: 120px;
+}
+#Card .card-section {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+#Card .card-section h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+#Card .card-section p {
+  text-align: center;
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 44px;
+}
+#Card .card-section .card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+#Card .card-section .card-item div{
+  padding: 24px;
+  border: none;
+  box-shadow:  0 6px 50px 0 #00000025;
+  border-radius: 8px;
+  max-width: 322px;
+  max-height: 300px;
+}
+#Card .card-section .card-item img {
+  margin-left: 40%;
+  padding-bottom: 16px;
+}
+#Card .card-section .card-item h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  padding-bottom: 16px;
+}
+#Card .card-section .card-item p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
 }

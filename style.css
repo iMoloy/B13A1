@@ -52,7 +52,7 @@
 #banner {
   background-image: url("./images/hero-bg.png");
   margin: 0 auto;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   vertical-align: middle;
 }
